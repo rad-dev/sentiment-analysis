@@ -107,4 +107,7 @@ venv.bak/
 .idea/
 
 # data set
-*/training_data.csv
+data/
+
+#vscode
+.vscode
