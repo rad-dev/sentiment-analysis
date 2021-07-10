@@ -158,4 +158,5 @@ if __name__ == '__main__':
                       train_scores, test_scores, ylim=(0.7, 1.01), figsize=(14,6))
   plt.show()
 
-  grid_svm.predict(x_test)
+  print(report_results(grid_svm, x_test, y_test));
+  
